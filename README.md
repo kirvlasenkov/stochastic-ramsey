@@ -37,7 +37,7 @@ Computes Euler residuals
 Computes the policy function for a Stochastic Infinite-Horizon Ramsey Model
 
 ### `utility.py`
-Contains the one-period return function of the model
+Contains the one-period utility function of the model
 
 ### `consts.py`
 File with global constants
