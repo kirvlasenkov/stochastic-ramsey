@@ -1,0 +1,19 @@
+ALPHA = 0.27  # elasticity of production with respect to capital
+BETA = 0.994  # discount factor
+SIGMA = 0.05  # parameter of AR(1) process for standard deviation
+DELTA = 0.011  # deprecation rate of a capital
+ETA = 2  # elasticity of marginal utility
+RHO = 0.9  # parameter of AR(1) process
+Z_NUMBER = 9  # number of grid points for the productivity shock
+Z_GRID_SIZE = 5.5  # size of the grid for the productivity shock
+K_MIN_GRID_SIZE = 0.60  # lower bound of the grid for the capital stock
+K_MAX_GRID_SIZE = 1.60  # upper bound of the grid for the capital stock
+WITH_INTERPOLATION = False  # if True -- compute model with interpolation
+POLICY_MAX_ITER = 60  # stop if number of consecutive iterations with unchanged indices of policy function > this number
+K_NUMBER = (5, 25, 100)
+K_MIN_EULER = 0.8  # kmin_e*kstar is the lower bound
+K_MAX_EULER = 1.2  # kmax_e*kstar is the upper bound
+RES_EULER_NUMBER = 200  # number of residuals to be computed
+
+SOLVER_EPS = 0.01  # stopping criterium
+SOLVER_MAX_ITER = 1000  # maximal number of iterations
